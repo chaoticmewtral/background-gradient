@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+ max-width: 900px;
+ margin: 5px auto;
+}
+
+#canvas {
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+#square {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+}
