@@ -14,11 +14,24 @@ body {
     margin: 0 auto;
     position: relative;
     background-color: black;
-    background-image: radial-gradient(at 50% 50%, blue 20%, transparent 30%);
+    background-image: radial-gradient(at 50% 50%, blue, transparent);
 }
 
-#square {
-    height: 5px;
-    width: 5px;
-    background-color: black;
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content>div {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
