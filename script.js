@@ -13,3 +13,4 @@ canvas.addEventListener('click', function getPosition(e) {
     square.style.left = xCoord;
     console.log(xCoord, yCoord);
 });
+
